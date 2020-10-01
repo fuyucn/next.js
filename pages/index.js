@@ -25,6 +25,14 @@ export default function Home() {
         </Link>
 
         <p className="mb-0 mt-3 text-disabled">Welcome to the world !</p>
+      </div> <div className="text-center mb-5">
+        <Link href="#">
+          <a className="logo mr-0">
+            <SmileFilled size={48} strokeWidth={1} />
+          </a>
+        </Link>
+
+        <p className="mb-0 mt-3 text-disabled">Welcome to the world !</p>
       </div>
       <div>
         <Form layout="horizontal">
@@ -97,7 +105,17 @@ export default function Home() {
               Cancel
             </Button>
           </FormItem>
+    
         </Form>
+     <div className="text-center mb-5">
+        <Link href="#">
+          <a className="logo mr-0">
+            <SmileFilled size={48} strokeWidth={1} />
+          </a>
+        </Link>
+
+        <p className="mb-0 mt-3 text-disabled">Welcome to the world !</p>
+      </div>
       </div>
     </div>
   )
